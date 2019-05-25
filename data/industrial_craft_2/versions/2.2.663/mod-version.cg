@@ -943,8 +943,8 @@ group: Machine Parts
 
     item: Ejector Upgrade
         recipe:
-            input: Electronic Circuit, Hopper, Insulated Copper Cable, Piston
-            pattern: ... 313 202
+            input: Tin Plate, Piston
+            pattern: 0.0 .1. 0.0
             tools: Crafting Table
 
     item: Electric Motor
