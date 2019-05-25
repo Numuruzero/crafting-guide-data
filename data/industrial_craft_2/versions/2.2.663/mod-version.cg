@@ -65,7 +65,7 @@ group: Agriculture
 
     item: Biogas Cell
         recipe:
-            input: 1000 Biogas, Empty Cell
+            input: 1000 Biogas, Universal Fluid Cell
             pattern: ... .0. .1.
 
     item: Biomass
@@ -77,7 +77,7 @@ group: Agriculture
 
     item: Biomass Cell
         recipe:
-            input: 1000 Biomass, Empty Cell
+            input: 1000 Biomass, Universal Fluid Cell
             pattern: ... .0. .1.
 
     item: Coffee
@@ -120,7 +120,7 @@ group: Agriculture
 
     item: Crop-Matron
         recipe:
-            input: Basic Machine Casing, Chest, Crop, Electronic Circuit, Empty Cell
+            input: Basic Machine Casing, Chest, Crop, Electronic Circuit, Universal Fluid Cell
             pattern: 313 404 222
             tools: Crafting Table
 
@@ -314,7 +314,7 @@ group: Agriculture
 
     item: Weed-EX
         recipe:
-            input: Empty Cell, Grin Powder, Redstone
+            input: Universal Fluid Cell, Grin Powder, Redstone
             pattern: .2. .1. .0.
             tools: Crafting Table
 
@@ -500,7 +500,7 @@ group: Energy: Generation
 
     item: Geothermal Generator
         recipe:
-            input: Empty Cell, Generator, Glass, Iron Item Casing
+            input: Universal Fluid Cell, Generator, Glass, Iron Item Casing
             pattern: 202 202 313
             tools: Crafting Table
 
@@ -1360,7 +1360,7 @@ group: Machines
 
     item: Condenser
         recipe:
-            input: Basic Machine Casing, Electronic Circuit, Empty Cell, Iron Item Casing
+            input: Basic Machine Casing, Electronic Circuit, Universal Fluid Cell, Iron Item Casing
             pattern: 232 202 313
             tools: Crafting Table
 
@@ -1384,7 +1384,7 @@ group: Machines
 
     item: Electrolyzer
         recipe:
-            input: Basic Machine Casing, Electronic Circuit, Empty Cell, Insulated Copper Cable
+            input: Basic Machine Casing, Electronic Circuit, Universal Fluid Cell, Insulated Copper Cable
             pattern: 3.3 313 202
             tools: Crafting Table
 
@@ -1402,19 +1402,19 @@ group: Machines
 
     item: Fermenter
         recipe:
-            input: Empty Cell, Heat Conductor, Iron Item Casing
+            input: Universal Fluid Cell, Heat Conductor, Iron Item Casing
             pattern: 222 000 212
             tools: Crafting Table
 
     item: Fluid Distributor
         recipe:
-            input: Basic Machine Casing, Empty Cell, Fluid Ejector Upgrade
+            input: Basic Machine Casing, Universal Fluid Cell, Fluid Ejector Upgrade
             pattern: 222 202 111
             tools: Crafting Table
 
     item: Fluid Regulator
         recipe:
-            input: Electric Motor, Electronic Circuit, Empty Cell, Iron Item Casing
+            input: Electric Motor, Electronic Circuit, Universal Fluid Cell, Iron Item Casing
             pattern: 333 202 313
             tools: Crafting Table
 
@@ -1499,7 +1499,7 @@ group: Machines
 
     item: Pump
         recipe:
-            input: Basic Machine Casing, Electronic Circuit, Empty Cell, Mining Pipe, Treetap
+            input: Basic Machine Casing, Electronic Circuit, Universal Fluid Cell, Mining Pipe, Treetap
             pattern: 212 202 343
             tools: Crafting Table
 
@@ -1668,7 +1668,7 @@ group: Minerals
 
     item: Compressed Air Cell
         recipe:
-            input: Empty Cell
+            input: Universal Fluid Cell
             pattern: ... .0. ...
             tools: Compressor
 
@@ -1742,7 +1742,7 @@ group: Minerals
 
     item: Distilled Water Cell
         recipe:
-            input: 1000 Distilled Water, Empty Cell
+            input: 1000 Distilled Water, Universal Fluid Cell
             pattern: ... .0. .1.
 
     item: Electrolyzed Water Cell
@@ -1751,7 +1751,7 @@ group: Minerals
             pattern: ... .0. ...
             tools: Electrolyzer
 
-    item: Empty Cell
+    item: Universal Fluid Cell
         recipe:
             input: Tin Plate
             pattern: ... .0. ...
@@ -1799,7 +1799,7 @@ group: Minerals
 
     item: Lava Cell
         recipe:
-            input: Empty Cell, 1000 Lava
+            input: Universal Fluid Cell, 1000 Lava
             pattern: ... .1. .0.
 
     item: Lead Block
@@ -1869,7 +1869,7 @@ group: Minerals
 
     item: Pahoehoe Lava Cell
         recipe:
-            input: Empty Cell, 1000 Pahoehoe Lava
+            input: Universal Fluid Cell, 1000 Pahoehoe Lava
             pattern: ... .1. .0.
 
     item: Plutonium
@@ -1904,27 +1904,27 @@ group: Minerals
 
     item: Refined Iron Ingot
         recipe:
-            extras: Slag, 6 Empty Cell
+            extras: Slag, 6 Universal Fluid Cell
             input: 6 Compressed Air Cell, Iron Ore
             pattern: .1. ... .0.
             tools: Blast Furnace
         recipe:
-            extras: Slag, 6 Empty Cell
+            extras: Slag, 6 Universal Fluid Cell
             input: 6 Compressed Air Cell, Iron Dust
             pattern: .1. ... .0.
             tools: Blast Furnace
         recipe:
-            extras: Slag, 6 Empty Cell
+            extras: Slag, 6 Universal Fluid Cell
             input: 6 Compressed Air Cell, Iron Ingot
             pattern: .1. ... .0.
             tools: Blast Furnace
         recipe:
-            extras: Slag, 6 Empty Cell
+            extras: Slag, 6 Universal Fluid Cell
             input: 6 Compressed Air Cell, Crushed Iron Ore
             pattern: .1. ... .0.
             tools: Blast Furnace
         recipe:
-            extras: Slag, 6 Empty Cell
+            extras: Slag, 6 Universal Fluid Cell
             input: 6 Compressed Air Cell, Purified Crushed Iron Ore
             pattern: .1. ... .0.
             tools: Blast Furnace
@@ -1985,7 +1985,7 @@ group: Minerals
 
     item: Steam Cell
         recipe:
-            input: Empty Cell, 1000 Steam
+            input: Universal Fluid Cell, 1000 Steam
             pattern: ... .1. .0.
 
     item: Sticky Resin
@@ -1994,7 +1994,7 @@ group: Minerals
 
     item: Superheated Steam Cell
         recipe:
-            input: Empty Cell, 1000 Superheated Steam
+            input: Universal Fluid Cell, 1000 Superheated Steam
             pattern: ... .1. .0.
 
     item: Tin Block
@@ -2096,12 +2096,12 @@ group: Minerals
 
     item: UuMatter Cell
         recipe:
-            input: Empty Cell, 1000 UU-Matter
+            input: Universal Fluid Cell, 1000 UU-Matter
             pattern: ... .1. .0.
 
     item: Water Cell
         recipe:
-            input: Empty Cell, 1000 Water
+            input: Universal Fluid Cell, 1000 Water
             pattern: ... .1. .0.
 
 group: Minerals: Dusts
@@ -2672,7 +2672,7 @@ group: Nuclear Reactor
 
     item: Bottling Plant
         recipe:
-            input: Basic Machine Casing, Electronic Circuit, Empty Cell
+            input: Basic Machine Casing, Electronic Circuit, Universal Fluid Cell
             pattern: .2. .2. 101
             tools: Crafting Table
 
@@ -2701,7 +2701,7 @@ group: Nuclear Reactor
 
     item: Coolant Cell
         recipe:
-            input: 1000 IC2 Coolant, Empty Cell
+            input: 1000 IC2 Coolant, Universal Fluid Cell
             pattern: ... 0.1 ...
             tools: Fluid/Solid Canning Machine
 
@@ -2779,14 +2779,14 @@ group: Nuclear Reactor
 
     item: Hot Coolant Cell
         recipe:
-            input: Empty Cell, 1000 IC2 Hot Coolant
+            input: Universal Fluid Cell, 1000 IC2 Hot Coolant
             pattern: ... .1. .0.
 
     item: IC2 Hot Coolant
 
     item: Liquid Heat Exchanger
         recipe:
-            input: Empty Cell, Glass, Heat Conductor, Iron Item Casing
+            input: Universal Fluid Cell, Glass, Heat Conductor, Iron Item Casing
             pattern: 101 101 323
             tools: Crafting Table
 
